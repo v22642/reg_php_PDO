@@ -1,0 +1,11 @@
+.body{
+    padding-left: 10vh;
+    padding-right: 10vh;
+    width: 40vh;
+    background: #f7f5f5 ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}

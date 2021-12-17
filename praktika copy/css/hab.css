@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    margin-top: 15vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+
+    grid-column-gap: 2vh;
+}
+.boxB1{
+    height: auto;
+}
+.boxB2{
+    grid-column: 2 / 4;
+    height: auto;
+}
+.boxB3{
+    border:1px solid black;
+}
+.boxB4{
+    border:1px solid black;
+}
+.boxA2 img{
+    margin-left: 2vh;
+}
+a {
+    color: #1a0c0c; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+a:visited {
+    color: #1a0c0c; /* Цвет посещённой ссылки */
+} 
+a:hover {
+    display: flex;
+    align-items:center;
+	justify-content:center;
+    color: #1a0c0c; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background-color:#cfcece;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 15vh;
+    
+}
+

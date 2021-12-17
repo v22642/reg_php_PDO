@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1{
+    height: 10vh;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 2fr 1fr 1fr;
+    
+}
+.h2{
+    height: 10vh;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+ 
+}
+.cc{
+    width: 25vh;
+}
+.boxA11{
+    display: flex;
+	align-items:center;
+	justify-content:center;
+    font-size: 3vh;
+    width: 35vh;
+}
+
+.boxA1 .foto{
+
+    height: 10vh;
+    width: 25vh;
+    background-image: url(../img/book.png);
+	background-size:100% 100%;
+}
+.boxA2{
+    
+    display: flex;
+	align-items:center;
+	justify-content:center;
+    font-size: 3vh;
+
+}
+.boxA3{
+    display: flex;
+	align-items:center;
+	justify-content:center;
+    font-size: 3vh;
+}
+
+.boxA7{
+    border:1px solid black;
+}
+.boxA2 img{
+    margin-left: 2vh;
+}
+a {
+    color: #1a0c0c; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+a:visited {
+    color: #1a0c0c; /* Цвет посещённой ссылки */
+} 
+a:hover {
+    display: flex;
+    align-items:center;
+	justify-content:center;
+    color: #1a0c0c; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background-color:#cfcece;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 15vh;
+    
+}
+
+.boxA8{
+    display: flex;
+	align-items:center;
+	justify-content:center;
+    font-size: 3vh;
+}
+.boxA8 a{
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.boxA8 a:hover{
+    background-color:#cfcece;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: auto;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.h2 a {
+    color: #1a0c0c; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+.h2 a:visited {
+    color: #1a0c0c; /* Цвет посещённой ссылки */
+} 
+.h2 a:hover {
+    display: flex;
+    align-items:center;
+	justify-content:center;
+    color: #1a0c0c; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background-color:#cfcece;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: auto;
+    
+}

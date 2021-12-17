@@ -1,0 +1,41 @@
+.body{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    
+}
+.Abox1{
+    display: flex;
+    align-items:center;
+	justify-content:center;
+    font-size: 3vh;
+    width: 100%;
+    height: 70vh;
+    margin-top: 20px;
+    border-bottom: 2px solid #1a0c0c;
+}
+.Abox2{
+    display: flex;
+    align-items:center;
+	justify-content:center;
+    margin-top: 20px;
+    width: 50vh;
+    height: 50vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+a {
+    color: #1a0c0c; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+a:visited {
+    color: #1a0c0c; /* Цвет посещённой ссылки */
+} 
+a:hover {
+    display: flex;
+    align-items:center;
+	justify-content:center;
+    color: #1a0c0c; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background-color:#cfcece;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 22vh;
+    
+}
